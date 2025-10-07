@@ -1,22 +1,19 @@
-# Core libraries
-numpy==1.23.5       # compatible with Python 3.13
-pandas==1.5.3       # compatible with Python 3.13
-matplotlib==3.7.2
-seaborn==0.12.2
-joblib==1.2.0
-scikit-learn==1.2.2
-
-# Streamlit and extras
+# Core
 streamlit==1.27.2
-streamlit_extras==0.2.5
+streamlit-extras>=0.1.0
 
-# Imbalanced-learn
-imbalanced-learn==0.10.1
+# Data handling
+pandas>=2.0
+numpy>=1.23
 
-# Rich (compatible with Streamlit 1.27.2)
-rich>=10.14.0,<14
+# Machine learning
+scikit-learn>=1.2
+imbalanced-learn>=0.10
+joblib>=1.3
 
-# Markdown dependencies for Streamlit
-markdown-it-py>=3.0.0
-mdurl~=0.1
-pygments>=2.13.0,<3.0.0
+# Visualization
+matplotlib>=3.7
+seaborn>=0.12
+
+# Optional (for nicer charts or interactions)
+plotly>=5.15
